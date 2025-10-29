@@ -63,7 +63,11 @@ Permite **gestionar inventarios**, **procesar compras**, **emitir recibos autom�
  
 - Credenciales de administrador: 
   - Usuario: admin
-  - Contraseña: admin12345678 
+  - Contraseña: admin12345678
+
+- Productos por default en `/Data/Productos.json`
+  - Puede añadir y eliminar productos mediante ejecución de codigo o manualmente en el archivo correspondiente.
+  
 
 ---
 
