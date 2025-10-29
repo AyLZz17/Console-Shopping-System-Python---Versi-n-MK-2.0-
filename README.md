@@ -28,7 +28,7 @@ Permite **gestionar inventarios**, **procesar compras**, **emitir recibos autom�
 - Calcula el total, descuenta inventario y genera un recibo automático.
 
 ### 💳 Procesamiento de Pagos
-- Simula pagos con tarjetas virtuales.  
+- Simula pagos con tarjetas virtuales (simulaciones).  
 - Valida saldo y confirma transacciones.  
 - Registra ventas exitosas y emite recibos.
 
