@@ -60,6 +60,10 @@ Permite **gestionar inventarios**, **procesar compras**, **emitir recibos autom√
   - `/Data/Productos.json`  
   - `/Data/CredencialesTrabajadores.json`  
   - `/Data/DatosTarjetasPago.py`
+ 
+- Credenciales de administrador: 
+  - Usuario: admin
+  - Contrase√±a: admin12345678 
 
 ---
 
