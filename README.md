@@ -70,8 +70,8 @@ Permite **gestionar inventarios**, **procesar compras**, **emitir recibos autom�
 
 ### 2️⃣ Clonar el repositorio
 ```bash
-git clone https://github.com/tuusuario/MK-2.0.git
-cd MK-2.0/Sistem
+git clone git clone https://github.com/AyLZz17/Console-Shopping-System-Python---Versi-n-MK-2.0-.git
+cd Console-Shopping-System-Python---Versi-n-MK-2.0-/Sistem
 ```
 
 ### 3️⃣ Instalar dependencias
