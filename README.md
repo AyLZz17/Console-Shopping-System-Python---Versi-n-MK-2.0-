@@ -100,7 +100,7 @@ python main.py
 ## Estructura del proyecto
 
 📦 MK-2.0  
- ┣ 📂 Sistem  
+ ┣ 📂 System  
  ┃ ┣ 📂 Data  
  ┃ ┃ ┣ 📂 Recibos  
  ┃ ┃ ┣ 📂 Reportes  
