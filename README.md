@@ -111,7 +111,8 @@ CLAVE DE ADMINISTRADOR: admin12345678
  ┃ ┃ ┗ 📜 Productos.json  
  ┃ ┣ 📂 functions  
  ┃ ┃ ┣ 📜 GestionProductos.py  
- ┃ ┃ ┣ 📜 mainPagos.py  
+ ┃ ┃ ┣ 📜 mainPagos.py 
+ ┃ ┃ ┣ 📜 InicioSesion.py
  ┃ ┃ ┣ 📜 MenuCompra.py  
  ┃ ┃ ┣ 📜 RecibosVenta.py  
  ┃ ┃ ┣ 📜 reportes.py  
