@@ -2,9 +2,5 @@
     "admin": {
         "password": "$2b$12$yjKlCW/KtkI93zvLGx9Om.Ig4.Z5nXZX1uQ.3WWq/hZumYUkSfZT.",
         "rol": "ADMINISTRADOR DEL PROGRAMA"
-    },
-    "DANIEL": {
-        "password": "$2b$12$YjLjhWT2UCRqh2dnyELcWe9KMwpxY1loRk0pRkDMgrtp3FeaUa2zi",
-        "rol": "DEV"
     }
 }
