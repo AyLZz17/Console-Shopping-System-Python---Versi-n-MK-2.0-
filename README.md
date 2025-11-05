@@ -141,8 +141,7 @@ Incluye gestión de usuarios, inventario, ventas, reportes y recibos automático
 
 ## Bugs conocidos
 
-- No se han identificado errores críticos.  
-- En observación: persistencia en rutas personalizadas y compatibilidad entre sistemas operativos.
+- PROBLEMA CON LAS RUTAS, SE RECOMIENDA CAMBIAR CADA RUTA MANUALMENTE.(Rutas absolutas)
 
 ---
 
