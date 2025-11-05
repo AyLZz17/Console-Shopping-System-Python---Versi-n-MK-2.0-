@@ -1,11 +1,11 @@
-# 🛒 MK-2.01 — Sistema de Compras en Consola (Python)
+# MK-2.01 — Sistema de Compras en Consola (Python)
 
 Un **prototipo funcional** de sistema de compras ejecutado desde consola, desarrollado en **Python 3.10+**.  
 Permite **gestionar inventarios**, **procesar compras**, **emitir recibos automáticos**, y **generar reportes de ventas**, todo con persistencia de datos local en `.json`.
 
 ---
 
-## 📚 Índice
+## Índice
 
 1. [Características principales](#-características-principales)  
 2. [Notas de versión](#-notas-de-versión)  
@@ -20,37 +20,37 @@ Permite **gestionar inventarios**, **procesar compras**, **emitir recibos autom�
 
 ---
 
-## ✨ Características principales
+## Características principales
 
-### 🛒 Módulo de Compras
+### Módulo de Compras
 - Visualiza productos disponibles y precios.  
 - Permite agregar al carrito, vaciarlo o pagar.  
 - Calcula el total, descuenta inventario y genera un recibo automático.
 
-### 💳 Procesamiento de Pagos
+### Procesamiento de Pagos
 - Simula pagos con tarjetas virtuales.  
 - Valida saldo y confirma transacciones.  
 - Registra ventas exitosas y emite recibos.
 
-### 🧾 Generación de Recibos
+### Generación de Recibos
 - Crea archivos `.txt` con el detalle completo de la compra.  
 - Muestra el recibo en consola y lo guarda en `/Data/Recibos`.
 
-### 📈 Sistema de Reportes
+### Sistema de Reportes
 - Registra y consolida todas las ventas.  
 - Genera estadísticas (producto más vendido, total de compras, ingresos acumulados).  
 - Guarda los reportes en `/Data/Reportes`.
 
-### 🏪 Panel de Trabajador
+### Panel de Trabajador
 - Acceso restringido mediante autenticación.  
 - Permite añadir o eliminar productos y generar reportes.  
 
-### 💾 Persistencia de Datos
+### Persistencia de Datos
 - Toda la información se conserva entre ejecuciones gracias a archivos `.json`.
 
 ---
 
-## 📣 Notas de Versión — MK 2.01
+## Notas de Versión — MK 2.01
 
 - Requiere **Python 3.10 o superior** (uso de `match-case`).  
 - Se añadió un **inicio de sesión** al ejecutar el codigo
@@ -66,7 +66,7 @@ Permite **gestionar inventarios**, **procesar compras**, **emitir recibos autom�
 
 ---
 
-## ⚙️ Instalación y ejecución
+## Instalación y ejecución
 
 ### 1️⃣ Requisitos previos
 - Python **3.10 o superior**
@@ -124,7 +124,7 @@ CLAVE DE ADMINISTRADOR: admin12345678
 
 ---
 
-## ⚠️ Limitaciones del prototipo
+## Limitaciones del prototipo
 
 - Persistencia solo en archivos locales (`.json` y `.txt`).  
 - Sin integración con bases de datos o APIs externas.  
@@ -135,21 +135,21 @@ CLAVE DE ADMINISTRADOR: admin12345678
 
 ---
 
-## 📌 Versión
+## Versión
 
 **MK-2.01** — Versión prototipo funcional del sistema de compras en consola.  
 Incluye gestión de usuarios, inventario, ventas, reportes y recibos automáticos.
 
 ---
 
-## 🪲 Bugs conocidos
+## Bugs conocidos
 
 - No se han identificado errores críticos.  
 - En observación: persistencia en rutas personalizadas y compatibilidad entre sistemas operativos.
 
 ---
 
-## 🤝 Contribución
+## Contribución
 
 ¡Las contribuciones son bienvenidas!  
 Si deseas mejorar el sistema o proponer nuevas funciones:
@@ -164,7 +164,7 @@ Si deseas mejorar el sistema o proponer nuevas funciones:
 
 ---
 
-## 🙌 Agradecimientos
+## Agradecimientos
 
 Agradecimientos especiales a:
 - **AYLZ**, creador y desarrollador principal del sistema.  
