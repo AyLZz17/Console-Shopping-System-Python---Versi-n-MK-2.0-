@@ -1,0 +1,5 @@
+----- REPORTE DE VENTAS ----
+Producto más vendido: pasta (1 unidades)
+Número total de compras: 1
+Total de ingresos acumulados: $1.30
+----------------------------
