@@ -136,7 +136,7 @@ CLAVE DE ADMINISTRADOR: admin12345678
 
 ## 📌 Versión
 
-**MK-2.0** — Versión prototipo funcional del sistema de compras en consola.  
+**MK-2.01** — Versión prototipo funcional del sistema de compras en consola.  
 Incluye gestión de usuarios, inventario, ventas, reportes y recibos automáticos.
 
 ---
