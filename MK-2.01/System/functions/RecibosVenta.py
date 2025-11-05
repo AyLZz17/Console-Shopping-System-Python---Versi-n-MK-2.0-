@@ -63,7 +63,9 @@ def generar_recibo(carrito, total):
     """
 
 #ruta donde se guarda el recibo generado
-    ruta_recibos = r"..\MK-2.01\System\Data\Recibos"#Cambia dependiendo de donde este trabajando el proyecto (SI se deja en blanco el STR, SE GUARDA EN LA CARPETA RAIZ (Sistem))
+    ruta_relativa = r"..\MK-2.01\System\Data\Recibos"#Cambia dependiendo de donde este trabajando el proyecto (SI se deja en blanco el STR, SE GUARDA EN LA CARPETA RAIZ (Sistem))
+    ruta_recibos = os.path.abspath(ruta_relativa) # Obtener ruta absoluta
+
 
 #Parametros de nombre del archivo
     tiempo= datetime.now().strftime('%Y_%m_%d__%H_%M_%S')

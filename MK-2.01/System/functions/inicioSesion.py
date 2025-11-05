@@ -1,11 +1,15 @@
 import bcrypt 
 import json
 import time
+import os
 from utils import utilidades as UT
 
 
 #apertura del archivo json donde se guardan los datos de registros de trabajadores
-ruta = r"..\MK-2.01\System\Data\CredencialesTrabajadores.json"
+ruta_relativa = r"..\MK-2.01\System\Data\CredencialesTrabajadores.json"
+# Obtener ruta absoluta a partir de relativa
+ruta = os.path.abspath(ruta_relativa)
+
 usuarios = {}
 try:
     with open(ruta, "r") as archivo:

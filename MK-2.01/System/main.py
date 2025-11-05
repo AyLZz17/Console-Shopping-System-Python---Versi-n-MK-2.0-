@@ -98,8 +98,8 @@ def main():
                         reset = "\033[0m"
                         UT.clear()
                         UT.cuadro_verde(" Finalizando programa... ")
-                        print(red +r"                       MK-2.0")
-                        print(r"                     By: AyLz "+ reset )
+                        print(red +r"                       MK-2.01")
+                        print(r"                      By: AyLz "+ reset )
                         time.sleep(1.2)
                         sys.exit()
                     case _:
