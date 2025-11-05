@@ -91,6 +91,12 @@ pip install datetime
 python main.py
 ```
 
+### 5️⃣ Usar claves de administrador para pruebas
+```bash
+USUARIO DE ADMINISTRADOR: admin
+CLAVE DE ADMINISTRADOR: admin12345678
+(Por el momento las claves son inmodificables durante la ejecución del programa)
+```
 ---
 
 ## 📂 Estructura del proyecto
