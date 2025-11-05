@@ -10,9 +10,9 @@ except ImportError as e:
     raise
 
 
-ruta_relativa = r"..\MK-2.01\System\Data\Productos.json"
+ruta_relativa = r"../Data/Productos.json"
 
-RUTA = os.path.abspath(ruta_relativa)
+RUTA = os.path.join(os.path.dirname(os.path.abspath(__file__)), ruta_relativa)
 
 def cargar_productos():
     """

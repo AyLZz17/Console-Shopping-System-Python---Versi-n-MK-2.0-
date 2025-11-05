@@ -12,9 +12,9 @@ except ImportError as e:
     raise
 
 #apertura del archivo json donde se guardan los datos de registros de trabajadores
-ruta_relativa = r"..\MK-2.01\System\Data\CredencialesTrabajadores.json"
+ruta_relativa = r"../Data/CredencialesTrabajadores.json"
 # Obtener ruta absoluta a partir de relativa
-ruta = os.path.abspath(ruta_relativa)
+ruta = os.path.join(os.path.dirname(os.path.abspath(__file__)), ruta_relativa)
 
 usuarios = {}
 try:

@@ -144,8 +144,8 @@ def generar_reportes():
 
 
     # Ruta donde se guardan los recibos (ajusta si es necesario)
-    ruta_relativa = r"..\MK-2.01\System\Data\Reportes" # Cambia dependiendo de donde este trabajando el proyecto (SI se deja en blanco el STR, SE GUARDA EN LA CARPETA RAIZ (Sistem))
-    ruta_reportes = os.path.abspath(ruta_relativa) # Obtener ruta absoluta
+    ruta_relativa = r"../Data/Reportes" # Cambia dependiendo de donde este trabajando el proyecto (SI se deja en blanco el STR, SE GUARDA EN LA CARPETA RAIZ (Sistem))
+    ruta_reportes = os.path.join(os.path.dirname(os.path.abspath(__file__)), ruta_relativa) # Obtener ruta absoluta
 
     os.makedirs(ruta_reportes, exist_ok=True)
 
